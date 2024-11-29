@@ -1,6 +1,6 @@
 # OnlineProxy PHP API
 
-[![version](https://badge.fury.io/gh/on-org%2Fonlineproxy-php-api.svg)](https://badge.fury.io/gh/on-org%2Fonlineproxy-php-api)
+[![Packagist](https://img.shields.io/packagist/v/on-org/onlineproxy-php-api.svg)](https://packagist.org/packages/on-org/onlineproxy-php-api)
 
 A PHP wrapper for managing proxies from [OnlineProxy.io](https://onlineproxy.io).
 

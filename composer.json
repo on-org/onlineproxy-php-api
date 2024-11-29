@@ -1,0 +1,51 @@
+{
+  "name": "on-org/onlineproxy-api",
+  "description": "php onlineproxy api client",
+  "keywords": [
+    "onlineproxy",
+    "api",
+    "client"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "on-org",
+      "email": "Virus191288@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0",
+    "vlucas/phpdotenv": "^4.1",
+    "larapack/dd": "1.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "onOrg\\OnlineProxyApi\\": "src/",
+      "Tests\\": "tests/"
+    },
+    "classmap": [
+      "src/"
+    ]
+  },
+  "autoload-dev": {
+    "files": [
+      "./vendor/larapack/dd/src/helper.php"
+    ],
+    "psr-4": {
+      "onOrg\\OnlineProxyApi\\": "src/",
+      "Tests\\": "tests/"
+    },
+    "classmap": [
+      "src/"
+    ]
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  }
+}

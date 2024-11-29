@@ -43,7 +43,7 @@ class Request
         ];
 
         if ($method === 'GET') {
-            $url .= ".php?{$serializedData}";
+            $url .= "?{$serializedData}";
             $context = stream_context_create([
                 'http' => [
                     'header' => implode("\r\n", $headers),

@@ -35,7 +35,7 @@ class OnlineProxyApi
      */
     public function getProxyList() {
         $response = $this->request->send('proxies', [], 'GET');
-        return new GetProxyList($response['proxies']);
+        return new GetProxyList($response);
     }
 
     /**
@@ -88,7 +88,7 @@ class OnlineProxyApi
      */
     public function getAvailableProxiesForOrder() {
         $response = $this->request->send('filters', [], 'GET');
-        return new AvailableProxies($response['proxies']);
+        return new AvailableProxies($response);
     }
 
     /**

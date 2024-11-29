@@ -4,73 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa816132-f43a-4db1-b0e5-7fd42675d887" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Responses/AvailableProxies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Responses/CommentResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Responses/GetProxyList.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Responses/OrderResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Responses/ProxyOne.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Responses/RotateResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Responses/Tariff.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Responses/Tariffs.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Responses/UserBalance.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/OnlineProxyApiTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Apis/GetFree.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Apis/GetFree.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Apis/GetNumbers.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Apis/GetProxy.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Apis/GetRent.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Apis/GetUser.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exceptions/NoAuthException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/NoAuthException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exceptions/NoNumberException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/NoNumberException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exceptions/RequestException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/RequestException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OnlineSimApi.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineProxyApi.php" afterDir="false" />
+    <list default="true" id="aa816132-f43a-4db1-b0e5-7fd42675d887" name="Changes" comment="fix test">
+      <change afterPath="$PROJECT_DIR$/src/Responses/GeoCity.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Responses/GeoOperator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OnlineProxyApi.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/OnlineProxyApi.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Request.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Request.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Responses/Base.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Responses/Base.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Responses/GetFree/GetCountries.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Responses/GetFree/GetCountriesOne.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Responses/GetFree/GetMessages.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Responses/GetFree/GetMessagesOne.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Responses/GetFree/GetNumbers.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Responses/GetFree/GetNumbersOne.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Responses/GetNumbers/Close.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Responses/GetNumbers/Get.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Responses/GetNumbers/Next.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Responses/GetNumbers/Price.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Responses/GetNumbers/Repeat.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Responses/GetNumbers/Service.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Responses/GetNumbers/ServiceNumber.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Responses/GetNumbers/State.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Responses/GetNumbers/StateOne.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Responses/GetNumbers/TariffCountryOne.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Responses/GetNumbers/TariffServiceOne.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Responses/GetNumbers/Tariffs.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Responses/GetProxy/ChangeIp.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Responses/GetProxy/ChangeType.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Responses/GetProxy/Get.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Responses/GetProxy/SetComment.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Responses/GetProxy/State.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Responses/GetRent/Close.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Responses/GetRent/Extend.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Responses/GetRent/Get.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Responses/GetRent/Message.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Responses/GetRent/PortReload.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Responses/GetRent/State.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Responses/GetRent/Tariff.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Responses/GetRent/Tariffs.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Responses/GetUser/Balance.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Responses/GetUser/Me.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Responses/GetUser/Payment.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Responses/GetUser/Profile.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Responses/GetUser/User.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/GetFreeTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/GetNumbersTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/GetProxyTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/GetRentTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/GetUserTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/IoTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Responses/AvailableProxies.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Responses/AvailableProxies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/OnlineProxyApiTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/OnlineProxyApiTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,35 +89,36 @@
       <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
       <path value="$PROJECT_DIR$/vendor/sebastian/code-unit" />
       <path value="$PROJECT_DIR$/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
     </include_path>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2ACR4x40mFnKwnWbwYHZtyRDZfk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.laravel-idea.search-composer-json": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "/Users/s00d/packeges/onlineproxy-php-api",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.laravel-idea.search-composer-json&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/s00d/packeges/onlineproxy-php-api&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Exceptions" />
@@ -268,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1659627880107</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fix test">
+      <option name="closed" value="true" />
+      <created>1732885398337</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1732885398337</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
